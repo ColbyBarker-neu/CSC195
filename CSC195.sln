@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Streams", "Streams\Streams.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fail", "Fail\Fail.vcxproj", "{B9F5EFE1-88FE-46A3-B525-45047FAF660D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fractions", "Fractions\Fractions.vcxproj", "{B59E791D-36D8-4B5C-B67E-10B53312DC71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{B9F5EFE1-88FE-46A3-B525-45047FAF660D}.Release|x64.Build.0 = Release|x64
 		{B9F5EFE1-88FE-46A3-B525-45047FAF660D}.Release|x86.ActiveCfg = Release|Win32
 		{B9F5EFE1-88FE-46A3-B525-45047FAF660D}.Release|x86.Build.0 = Release|Win32
+		{B59E791D-36D8-4B5C-B67E-10B53312DC71}.Debug|x64.ActiveCfg = Debug|x64
+		{B59E791D-36D8-4B5C-B67E-10B53312DC71}.Debug|x64.Build.0 = Debug|x64
+		{B59E791D-36D8-4B5C-B67E-10B53312DC71}.Debug|x86.ActiveCfg = Debug|Win32
+		{B59E791D-36D8-4B5C-B67E-10B53312DC71}.Debug|x86.Build.0 = Debug|Win32
+		{B59E791D-36D8-4B5C-B67E-10B53312DC71}.Release|x64.ActiveCfg = Release|x64
+		{B59E791D-36D8-4B5C-B67E-10B53312DC71}.Release|x64.Build.0 = Release|x64
+		{B59E791D-36D8-4B5C-B67E-10B53312DC71}.Release|x86.ActiveCfg = Release|Win32
+		{B59E791D-36D8-4B5C-B67E-10B53312DC71}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
