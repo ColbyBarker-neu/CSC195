@@ -19,3 +19,11 @@ void Bike::Write(std::ostream& ostream)
 	Vehicle::Write(ostream);
 	ostream << "Inside Drifting Bike: " << hasInsideDrift << std::endl;
 }
+void Bike::Read(std::ifstream& istream)
+{
+	istream >> hasInsideDrift;
+}
+
+void Bike::Write(std::ofstream& ostream) {
+	ostream << hasInsideDrift << std::endl;
+}

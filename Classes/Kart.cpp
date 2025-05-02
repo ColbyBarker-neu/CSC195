@@ -20,3 +20,12 @@ void Kart::Write(std::ostream& ostream)
 	ostream << "4-Wheeled Kart: " << has4Wheels << std::endl;
 
 }
+
+void Kart::Read(std::ifstream& istream)
+{
+	istream >> has4Wheels;
+}
+
+void Kart::Write(std::ofstream& ostream) {
+	ostream << has4Wheels << std::endl;
+}

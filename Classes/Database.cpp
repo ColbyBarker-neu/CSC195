@@ -18,14 +18,13 @@ void Database::Create(Vehicle::eVehicle vehicleType)
 		vhc = new Bike;
 		break;
 	}
-	vhc->Read(std::cout, std::cin);
-	vehicles.push_back(vhc);
+	std::cin >> *vhc;
 }
 
 void Database::DisplayAll()
 {
 	for (Vehicle* vhc : vehicles) {
-		vhc->Write(std::cout);
+		std::cout << *vhc << std::endl;
 	}
 }
 
